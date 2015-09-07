@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Graphics</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="Papu">Hume jabse Mohbat hogai hai</string>
+    <string name="title_activity_shared_prefs">SharedPrefs</string>
+    <string name="title_activity_external_storage">ExternalStorage</string>
+
+</resources>

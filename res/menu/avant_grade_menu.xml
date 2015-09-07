@@ -1,0 +1,16 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/credits"
+        
+        android:title="About Me"/>
+    <item
+        android:id="@+id/Preferences"
+        
+        android:title="Preferences"/>
+ <item
+        android:id="@+id/Exit"
+        
+        android:title="Exit"/>
+    
+</menu>

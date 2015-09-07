@@ -1,0 +1,59 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StartingPoint"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Your total is 0" 
+        android:gravity="center"
+        android:id="@+id/tvDisplay"
+        android:textSize="25dp"/>"
+
+    <Button
+        android:id="@+id/bAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom"
+        android:layout_gravity="center" />
+     <Button
+        android:id="@+id/bSub"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:text="Subtract one"
+        android:textSize="25dp" />
+      <Button
+        android:id="@+id/bRto0"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:text="Reassign to 0"
+        android:textSize="25dp" />
+      <Button
+        android:id="@+id/bsqr"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:text="Square totals"
+        android:textSize="25dp" />
+      <Button
+        android:id="@+id/bGM"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:text="Gayatri Mantra"
+        android:textSize="25dp" />
+
+      <Button
+          android:id="@+id/bE"
+          android:layout_width="fill_parent"
+          android:layout_height="50dp"
+          android:text="Go back"
+          android:textSize="25dp" 
+       
+          
+         />"
+
+</LinearLayout>

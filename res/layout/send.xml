@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ADB2B0" >
+
+    <TextView
+        android:id="@+id/tvQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quickr ko _____________ maar!" />
+
+    <RadioGroup
+        android:id="@+id/rgAnswer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <RadioButton
+            android:id="@+id/rGoli"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+           
+            android:text="goli" />
+
+        <RadioButton
+            android:id="@+id/rMiss"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="miss call" />
+
+        <RadioButton
+            android:id="@+id/rHookah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hookah" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/bReturn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Return" />
+
+    <TextView
+        android:id="@+id/tvAnswer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="" />
+
+</LinearLayout>

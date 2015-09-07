@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.thirdapp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+    
+     <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.INTERNET" />
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/CustomTheme" >
+        <activity
+            android:name="com.example.thirdapp.Intro"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.thirdapp.StartingPoint"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Translucent" >
+            <intent-filter>
+                <action android:name="com.example.thirdapp.STARTINGPOINT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.thirdapp.Menu"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.thirdapp.MENU" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.thirdapp.TextPlay"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.thirdapp.Email"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.thirdapp.Click_2_Stick"
+            android:label="Camera App"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.thirdapp.OpenedClass"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.thirdapp.Data"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.thirdapp.AboutUs"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Dialog" >
+            <intent-filter>
+                <action android:name="com.example.thirdapp.ABOUTUS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.thirdapp.Call_Me"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.thirdapp.Graphics"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.thirdapp.AnimationClass"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.thirdapp.Graphics_Surface"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.thirdapp.SoundSound"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.thirdapp.Slider"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.thirdapp.Browser"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.thirdapp.Tabs"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.thirdapp.Flipper"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.thirdapp.pk"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.thirdapp.Prefer"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.thirdapp.PREFER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.thirdapp.SharePrefs"
+            android:label="@string/title_activity_shared_prefs" >
+        </activity>
+        <activity
+            android:name="com.example.thirdapp.InternalStorage"
+            android:label="@string/title_activity_shared_prefs" >
+        </activity>
+        <activity
+            android:name="com.example.thirdapp.ExternalStorage"
+            android:label="@string/title_activity_external_storage" >
+        </activity>
+       
+        <activity
+            android:name="com.example.thirdapp.Accelerometer"
+            android:label="@string/app_name" 
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.example.thirdapp.SQL_Lite"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.thirdapp.SqlView"
+            android:label="@string/app_name" >
+            
+             <intent-filter>
+                <action android:name="com.example.thirdapp.SqlView" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>>
+        </activity>
+         <activity
+            android:name="com.example.thirdapp.HttpClient"
+            android:label="@string/app_name" >
+        </activity>
+         <activity
+            android:name="com.example.thirdapp.OpenGLEx"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.thirdapp.OpenGLExCube"
+            android:label="@string/app_name" >
+        </activity>
+        <receiver 
+            android:name=".MyWidget"
+            android:label="@string/app_name"
+            android:icon="@drawable/flower">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+               </intent-filter>
+            <meta-dat android:name="android.appwidget.provider"
+                android:resource="@xml/widget_layout" />
+           </receiver>
+    </application>
+
+</manifest>
